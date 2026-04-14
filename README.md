@@ -90,7 +90,7 @@ AI-powered job search automation for Mexico/LATAM. Scrapes 8+ job boards with Pl
 
 ---
 
-### Metis — Local Personal AI Agent *(private)*
+### [Metis](https://github.com/G10hdz/METIS) — Local Personal AI Agent
 > Positronica Labs
 
 AI Agent Orchestrator with LangGraph StateGraph and 9 routes (RAG, code, search, file ops, bash, general). Keyword-based router with 5-tier LLM fallback (Ollama → Opencode → Qwen → Gemini → Telegram). Full file operations, bash sandbox with whitelisted commands, and Telegram integration.
@@ -108,7 +108,7 @@ Adaptive learning platform with OCR pipeline for exam prep materials. Processes 
 
 ---
 
-### Echo — Pronunciation Practice App (ELSA-like)
+### [Echo](https://github.com/G10hdz/ECHO) — Pronunciation Practice App (ELSA-like)
 > Architecture Complete ✅ | Phase 1: In Progress
 
 Pronunciation practice app using local AI stack. Whisper STT + WhisperX word-level alignment + Levenshtein scoring + Kokoro TTS for correct pronunciation feedback. Phase 1: Metis Telegram bot MVP. Phase 2: React + FastAPI web app. Phase 3: React Native mobile apps.
