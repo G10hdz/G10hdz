@@ -2,7 +2,7 @@
 
 # Mayte Giovanna Hernandez Rios
 
-**Cloud & Automation Engineer · AI Infrastructure · Co-founder [@PositronicaLabs](https://positronica.mx)**
+**Cloud & Automation Engineer · AI Infrastructure · Co-founder [@PositronicaLabs](https://positronicalabs.netlify.app)**
 
 *Building at the intersection of cloud, AI, and mathematical rigor*
 
