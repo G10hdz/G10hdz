@@ -8,7 +8,7 @@
 
 [![Website](https://img.shields.io/badge/giobuilds.com-04050c?style=for-the-badge&logo=vercel&logoColor=white)](https://giobuilds.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mayte-giovanna-hernandez-rios)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hernandez.r.giovanna@gmail.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gio@giobuilds.com)
 [![AWS SAA](https://img.shields.io/badge/AWS_SAA--C03-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](#)
 
 </div>
@@ -38,12 +38,19 @@ Taking AI products from prototype to production, bringing test and CI discipline
 
 ## Projects
 
-### [Mi Primera Chamba](https://miprimerachamba.tech/waitlist/) · AI job marketplace
+### [Mi Primera Chamba](https://miprimerachamba.ai) · AI job marketplace
 > Production
 
-AI job marketplace for early-career talent in Mexico. Swipe-style vacancy discovery with explainable CV-to-vacancy matching, and reliability controls against prompt injection. I lead the AI work.
+AI job marketplace for early-career talent in Mexico. Swipe-style vacancy discovery with explainable CV-to-vacancy matching, deterministic guards before any LLM call, and an LLM-as-judge meta-eval for the interview coach. I lead the AI work.
 
-`Next.js` `Supabase RLS` `AI matching`
+`Next.js` `Supabase RLS` `AI matching` `LLM evals`
+
+### [TallyGraph](https://www.tallygraph.dev) · AI spend console
+> Production
+
+Unified spend console for dev teams: usage from AI providers, coding agents and SaaS seats in one workspace, with budgets, anomaly detection and savings findings. Credential-free local CLI, tenant isolation proven by RLS tests in CI.
+
+`Next.js` `Supabase` `Stripe` `Multi-tenant`
 
 ### [FairHire](https://fairfit-ai.netlify.app) · Job fit and gender pay gap analyzer
 > Hackathon build, SheBuilds x 8M
@@ -63,8 +70,8 @@ Pronunciation practice in seven languages, with word-level alignment via Whisper
 
 Private or research repos. Happy to walk through any of them.
 
-- **Outlay OS** · multi-tenant console for AI and SaaS spend. Vendor connectors, budgets, forecasting, Stripe, tenant isolation enforced in the database with tests that prove it.
 - **aldava** · apartment tracker for Mexico City that survives hostile listing sites.
+- **ai-coach** · bilingual speaking-practice app live on Vercel; on-device speech metrics plus LLM evaluation through edge functions (Vertex Gemini + ElevenLabs).
 - **Metis** · local-first AI agent orchestrator with RAG and a 5-level LLM fallback from Ollama to Gemini, running on AMD ROCm.
 - **Hypatia** · adaptive, neurodivergent-friendly learning platform for UNAM exam prep, built on an OCR and PDF chunking pipeline.
 - **Sendero** · disappearance-risk map of Mexico. 2nd place and Best Use of Firecrawl at Platanus Hack 2026.
@@ -78,7 +85,7 @@ Private or research repos. Happy to walk through any of them.
 **Forward Deployed Engineer** · [Solanthic Engineering](https://giobuilds.com) *(Jul 2026 - Present)*
 End to end on a customer-facing product: multi-screen frontend, CI and testing discipline, AWS telemetry and notifications, edge devices. Edge prototype to AWS in under a week.
 
-**Lead AI Engineer** · [Mi Primera Chamba](https://miprimerachamba.tech/waitlist/) *(Jul 2026 - Present)*
+**Lead AI Engineer** · [Mi Primera Chamba](https://miprimerachamba.ai) *(Jul 2026 - Present)*
 Explainable CV-to-vacancy matching, prompt injection controls, swipe-style job discovery.
 
 **Co-founder & AI Developer** · [Positronica Labs](https://positronicalabs.dev) *(Jan 2026 - Present)*
