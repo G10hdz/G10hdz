@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>G10hdz — profile repo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --color-paper:   #f5f5f5;
+      --color-ink:     #2d3142;
+      --color-muted:   #4f5d75;
+      --color-accent:  #eb6c36;
+      --font-sans:     'Geist', system-ui, sans-serif;
+      --font-serif:    'Instrument Serif', serif;
+      --font-mono:     'Geist Mono', ui-monospace, monospace;
+    }
+    body {
+      font-family: var(--font-sans);
+      background: var(--color-paper);
+      color: var(--color-ink);
+      min-height: 100vh;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 3rem 2rem;
+    }
+    .frame { max-width: 1100px; width: 100%; }
+    .eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.66rem; font-weight: 500;
+      letter-spacing: 0.18em; text-transform: uppercase;
+      color: var(--color-muted); margin-bottom: 0.5rem;
+    }
+    h1 {
+      font-family: var(--font-serif);
+      font-size: clamp(1.5rem, 2.4vw + 0.75rem, 2rem);
+      font-weight: 400; letter-spacing: -0.02em; line-height: 1.15;
+      margin-bottom: 0.4rem;
+    }
+    .sub { color: var(--color-muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+    svg { width: 100%; display: block; }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <p class="eyebrow">Architecture · Diagram Design</p>
+    <h1>G10hdz — GitHub profile</h1>
+    <p class="sub">Special repo: GitHub renders its README.md on the profile page. That is the whole architecture.</p>
+
+    <svg viewBox="0 0 1100 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="gh-title gh-desc">
+      <title id="gh-title">G10hdz profile README</title>
+      <desc id="gh-desc">El repo G10hdz contiene solo README.md; GitHub lo muestra como tarjeta de perfil en github.com/G10hdz.</desc>
+      <defs>
+        <marker id="gh-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#eb6c36"/></marker>
+      </defs>
+
+      <rect width="1100" height="300" fill="#f5f5f5"/>
+
+      <rect x="200" y="90" width="280" height="100" rx="6" fill="rgba(235,108,54,0.08)" stroke="#eb6c36" stroke-width="1.2"/>
+      <text x="340" y="128" fill="#2d3142" font-size="13" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">README.md</text>
+      <text x="340" y="150" fill="#4f5d75" font-size="9" font-family="'Geist Mono', monospace" text-anchor="middle">G10hdz/G10hdz</text>
+      <text x="340" y="168" fill="#4f5d75" font-size="9" font-family="'Geist Mono', monospace" text-anchor="middle">unico archivo del repo</text>
+
+      <rect x="620" y="90" width="280" height="100" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+      <text x="760" y="128" fill="#2d3142" font-size="13" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">github.com/G10hdz</text>
+      <text x="760" y="150" fill="#4f5d75" font-size="9" font-family="'Geist Mono', monospace" text-anchor="middle">profile card</text>
+      <text x="760" y="168" fill="#4f5d75" font-size="9" font-family="'Geist Mono', monospace" text-anchor="middle">render automatico</text>
+
+      <path d="M 480 140 L 620 140" fill="none" stroke="#eb6c36" stroke-width="1.4" marker-end="url(#gh-arrow)"/>
+
+      <rect x="200" y="230" width="700" height="40" rx="6" fill="rgba(45,49,66,0.05)" stroke="rgba(45,49,66,0.32)" stroke-width="0.8"/>
+      <text x="550" y="255" fill="#4f5d75" font-size="10.5" font-family="'Geist', sans-serif" text-anchor="middle">Un repo cuyo nombre = username se trata como perfil publico.</text>
+    </svg>
+  </div>
+</body>
+</html>
