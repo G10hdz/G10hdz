@@ -20,13 +20,13 @@
 Forward Deployed Engineer in Mexico City. I work both sides of a deployment: the customer conversation and the system they are calling about.
 
 **Now:**
-- **Forward Deployed Engineer** at Solanthic Engineering. I own a customer-facing product end to end: the frontend, the CI and testing discipline the team lacked, AWS telemetry, edge devices, plus coordination with the customer and the hardware integrator and the on-site demos.
+- **Forward Deployed Engineer** at Solanthic Engineering. I own a customer-facing product end to end: frontend, testing, cloud telemetry, edge devices and on-site delivery.
 - **Lead AI Engineer** at Mi Primera Chamba. Swipe-style job discovery with explainable CV-to-vacancy matching and reliability controls against prompt injection.
-- **Co-founder** of Positronica Labs, local-first AI infrastructure for Latin America, founded by women, built with my sister.
+- **Co-Founder & CTO** of Positronica Labs, local-first AI infrastructure for Latin America, founded by women, built with my sister.
 
 **Before:** AWS Cloud Support Engineer closing 200+ enterprise cases at 95%+ CSAT, then infrastructure at Santander Global Services (AWS, DevOps, teams in Spain).
 
-**Credentials:** Mathematics at UNAM. AWS Certified Solutions Architect Associate (SAA-C03), 2026.
+**Credentials:** Mathematics, UNAM (coursework completed). AWS Certified Solutions Architect Associate (SAA-C03), 2026.
 
 ---
 
@@ -82,13 +82,13 @@ Private or research repos. Happy to walk through any of them.
 
 ## Experience
 
-**Forward Deployed Engineer** · [Solanthic Engineering](https://giobuilds.com) *(Jul 2026 - Present)*
-End to end on a customer-facing product: multi-screen frontend, CI and testing discipline, AWS telemetry and notifications, edge devices. Edge prototype to AWS in under a week.
+**Forward Deployed Engineer** · Solanthic Engineering *(Jul 2026 - Present)*
+Own a customer-facing product end to end, from frontend and testing to cloud telemetry, edge devices and on-site delivery.
 
 **Lead AI Engineer** · [Mi Primera Chamba](https://miprimerachamba.ai) *(Jul 2026 - Present)*
 Explainable CV-to-vacancy matching, prompt injection controls, swipe-style job discovery.
 
-**Co-founder & AI Developer** · [Positronica Labs](https://positronicalabs.dev) *(Jan 2026 - Present)*
+**Co-Founder & CTO** · [Positronica Labs](https://positronicalabs.dev) *(Jan 2026 - Present)*
 Local-first AI infrastructure for Latin America. Founded by women.
 
 **Infra Build IT Specialist I** · Santander Global Services *(Apr 2026 - Jul 2026)*
