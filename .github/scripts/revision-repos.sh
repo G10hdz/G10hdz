@@ -49,7 +49,7 @@ cuerpo="Repos públicos propios (sin forks ni archivados) a los que les falta al
 | --- | --- |
 $filas
 
-Para pulir uno, pídele a tu agente que use el skill \`repo-publico\` en ese repo. Este issue se cierra solo cuando todo queda en orden."
+Para pulir uno, pídele a tu agente que use el skill \`pulir-repo\` en ese repo. Este issue se cierra solo cuando todo queda en orden."
 
 printf '%s\n' "$cuerpo"
 resumen "$cuerpo"
