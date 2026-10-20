@@ -1,0 +1,29 @@
+name: Revisión de repos públicos
+
+# Cada lunes revisa los repos públicos propios y mantiene un issue con los que
+# no tienen licencia, descripción o topics. La lógica vive en
+# .github/scripts/revision-repos.sh; local se prueba con DRY_RUN=1.
+
+on:
+  schedule:
+    - cron: "0 15 * * 1" # lunes 15:00 UTC, 9:00 en CDMX
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Revisar repos y actualizar el issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          OWNER: ${{ github.repository_owner }}
+          IGNORAR: G10hdz
+        run: bash .github/scripts/revision-repos.sh
