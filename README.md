@@ -68,15 +68,15 @@ Pronunciation practice in seven languages, with word-level alignment via Whisper
 
 ### Also built
 
-Private or research repos. Happy to walk through any of them.
+The public ones are linked; the rest are private or research repos. Happy to walk through any of them.
 
 - **aldava** · apartment tracker for Mexico City that survives hostile listing sites.
 - **ai-coach** · bilingual speaking-practice app live on Vercel; on-device speech metrics plus LLM evaluation through edge functions (Vertex Gemini + ElevenLabs).
 - **Metis** · local-first AI agent orchestrator with RAG and a 5-level LLM fallback from Ollama to Gemini, running on AMD ROCm.
-- **Hypatia** · adaptive, neurodivergent-friendly learning platform for UNAM exam prep, built on an OCR and PDF chunking pipeline.
+- **[Hypatia](https://github.com/G10hdz/Hypatia)** · adaptive, neurodivergent-friendly learning platform for UNAM exam prep, built on an OCR and PDF chunking pipeline.
 - **Sendero** · disappearance-risk map of Mexico. 2nd place and Best Use of Firecrawl at Platanus Hack 2026.
-- **skill-scan** · preflight security scanner that flags malicious patterns in agent skills before install.
-- **Rosetta Coda** · local-first instrument for falsifiable phonological hypotheses on sperm-whale codas.
+- **[skill-scan](https://github.com/G10hdz/skill-scan)** · preflight security scanner that flags malicious patterns in agent skills before install.
+- **[Rosetta Coda](https://github.com/G10hdz/rosetta-coda)** · local-first instrument for falsifiable phonological hypotheses on sperm-whale codas.
 
 ---
 
